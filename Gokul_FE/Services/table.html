@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <a href="../../index.html">Home</a>
+    <p>
+        <h5>To create a table we do have table tag</h5>
+        <h5>To create a row we need to use tr tag</h5>
+        <h5>To create a data we need to use td tag</h5>
+        <h5>To create a header we can use th tag</h5>
+
+        <table border="1">
+            <tr>
+                <th>header1</th>
+                <th> header 2</th>
+                <th> header 3</th>
+            </tr>
+            <tr>
+                <td>row1-data1</td>
+                <td>row1-data2</td>
+                <td>row1-data3</td>
+
+            </tr>
+
+            <tr>
+                <td>row2-data1</td>
+                <td>row2-data2</td>
+                <td>row2-data3</td>
+
+            </tr>
+        </table>
+    </p>
+<p>
+    <h5>cell pading gives the pixel words to border value
+    </h5>
+    <h5>
+        cell spacing gives space between each cell border
+    </h5>
+</p>
+    <table border="1" bgcolor="yellow" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>header1</th>
+            <th> header 2</th>
+            <th> header 3</th>
+            <th> header 4</th>
+        </tr>
+        <tr>
+            <td rowspan="2">common data </td>
+            <td>row1-data2</td>
+            <td colspan="2">row1-data3</td>
+
+        </tr>
+
+        <tr>
+            <td>row2-data2</td>
+            <td colspan="2">row2-data3</td>
+
+        </tr>
+    </table>
+    
+</body>
+</html>
